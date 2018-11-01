@@ -1,0 +1,126 @@
+.icon-left {
+    float: left;
+    padding: 12px 25px 60px 15px;
+    color: #4ECABE;
+}
+
+.text {
+    text-align: left;
+    padding: 0 0 0 15px;
+    color: black;
+}
+
+.text h4 {
+    padding-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .text p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 815px) {
+    button {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1025px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    button {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 420px) {
+
+}
+
+@media (min-width: 1200px) {
+    button {
+        margin-left: 100px;
+    }
+}
+#row1{
+    margin-top: 50px;
+}
+#h1{
+    margin-top: 50px;
+}
+#h2{
+    font-size: 25px ; margin-top: 60px;
+}
+#p1{
+    text-align: left ;font-size: 17px;
+}
+#gif1{
+    margin-top: 10px;width: 100%;
+}
+#col1{
+    margin-top: 100px;
+}
+#h3{
+    margin-top: -100px;
+}
+#h5{
+    font-size: 18px;
+}
+#p1{
+    font-size: 17px ;margin-top: 20px;
+}
+#h5{
+    font-size: 18px;
+}
+#p3{
+    font-size: 17px ;margin-top: 20px;
+}
+#h6{
+    font-size: 18px;
+}
+#p4{
+    font-size: 17px ;margin-top: 20px;
+}
+#row2{
+    margin-top: 150px;
+}
+#h7{
+    margin-top:10px;
+}
+#h8{
+    margin-top: 45px;font-size: 18px;
+}
+#p5{
+    font-size: 17px ; margin-top: 20px;
+}
+#h9{
+    margin-top: 45px;font-size: 18px;
+}
+#p6{
+    font-size: 17px ; margin-top: 20px;
+}
+#row3{
+    margin-top: 150px;
+}
+#h10{
+    margin-top:10px;
+}
+#h11{
+    margin-top: 45px;font-size: 18px;
+}
+#p7{
+    font-size: 17px ; margin-top: 20px;
+}
+#h12{
+    margin-top: 45px;font-size: 18px;
+}
+#p8{
+    font-size: 17px ; margin-top: 20px;
+}

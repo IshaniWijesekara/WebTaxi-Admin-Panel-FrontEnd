@@ -1,0 +1,50 @@
+footer {
+    background-color: black;
+}
+
+#justpushtobottom {
+    height: 82vh;
+}
+#main-div{
+    margin-top: 5px ;
+    max-width: 800px;
+}
+#row1{
+    margin-top: 40px;
+}
+
+#row2{
+    margin-top: 80px;
+}
+#p1{
+    font-size: 16px;
+}
+#code{
+    border:1px solid #ddd;
+    height: 30px ;
+    margin-left: 10px;
+}
+#p2{
+    font-size: 18px;
+}
+#p3{
+    font-size: 18px;
+}
+#p4{
+    font-size: 16px;
+}
+.btn btn-primary btn-lg btn-block info{
+    background-color: #009688 ; color: white;
+}
+#hr{
+    height:1px;border:none;color:#333;background-color:#333; width: 400px;
+}
+#p5{
+    font-size: 16px;
+}
+#email{
+    border:1px solid #ddd; height: 80px ; width: 300px;
+}
+.btn btn-primary btn-lg btn-block info{
+    background-color: #009688 ; color: white;
+}

@@ -1,0 +1,81 @@
+.fb.btn{
+    background-color: #3B5998;
+    color: white;
+}
+.google.btn{
+    background-color: #dd4b39;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    width: 100%;
+    height: 80%;
+    background: url(../_img/39.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    top:0;
+
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.content{
+    width: 26vw;
+    height: 62vh;
+    background: rgba(0,0,0,.8);
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    margin: auto;
+    display: table;
+    border-radius: 1%;
+    margin-left: 70%;
+}
+
+.input1{
+    width: 270px;
+    padding: 5px;
+    color: #ffff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    background: transparent;
+}
+.input2{
+    width: 270px;
+    padding: 5px;
+    color: #ffff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    background: transparent;
+}
+.input2[placeholder]{
+    padding-left: 23%;
+    font-family: 'Lobster';
+    font-size: 1.9vw;
+
+}
+
+.input1[placeholder]{
+    padding-left: 23%;
+    font-family: 'Lobster';
+    font-size: 1.9vw;
+}
+
+.ui.button{
+    text-decoration: none;
+    display: table;
+    text-align: center;
+    height: 3vh;
+    padding: 3% 0% 3% 0%;
+    font-size: 1.8vw;
+    font-family: 'Lobster';
+
+}

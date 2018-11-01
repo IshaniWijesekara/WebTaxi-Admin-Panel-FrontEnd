@@ -1,0 +1,217 @@
+body {
+    font-family: "Lato", sans-serif
+}
+
+.mySlides {
+    display: none
+}
+
+.button {
+    height: 50px;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 900px;
+    margin-top: 50px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*PEN STYLES*/
+* {
+    box-sizing: border-box;
+}
+
+.mySlides {
+    display: none
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: #EAEDED;
+    /*background-image: url("_img/39.jpg");*/
+}
+
+#row1{
+    background-color:#EAEDED;
+}
+
+#band22{
+    background-color: #EAEDED;
+}
+#row3{
+    background-color: #E5E7E9;
+}
+#contact222{
+    background-color: #E5E7E9;
+}
+#contact1234{
+    margin-top: -40px ;
+     background-color:#F4F6F6;
+}
+#ready{
+    background-color: #D5DBDB;
+}
+#contact14444{
+    background-color: #D5DBDB;
+}
+#contact55555{
+    background-color: red;
+}
+
+.col-12 {
+    /*background-image: url(_img/39.jpg);*/
+}
+
+.box2 {
+    top: -650px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 380px;
+    height: 580px;
+}
+
+.col-md-8 col-sm-8 col-xs-12 col-lg-8 {
+}
+
+.box .inputBox {
+    position: relative;
+}
+
+.box .inputBox input {
+    width: 270px;
+    padding: 5px;
+    color: #ffff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    background: transparent;
+}
+
+.box .inputBox label {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    pointer-events: none;
+    color: #ffff;
+    transition: 0.5s;
+
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+    top: -10px;
+    left: 0;
+    color: #03a9f4;
+}
+
+header {
+    text-align: center;
+    background-color: white;
+    margin-top: 30px;
+    height: 30px;
+    width: 80%;
+    margin-left: 40px;
+}
+
+body p {
+    /*color: white;*/
+    /*margin-left: 10%;*/
+    /*font-size: 40px;*/
+}
+
+@media only screen and (max-width: 390px) {
+    .box2{
+        margin-left: -20px;
+    }
+    .col-md-4 col-sm-4 col-xs-12 col-lg-4{
+        margin-left: -20px;
+    }
+}
+
+/* For example, newer phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .box2{
+        margin-left: -300px;
+    }
+    .col-md-4 col-sm-4 col-xs-12 col-lg-4 {
+        margin-left: -300px;
+    }
+
+}
+
+/* For example, small computer screens and larger tablets */
+@media only screen and (min-width: 768px) {
+    .box2 {
+        margin-left: -200px;
+    }
+    .col-md-4 col-sm-4 col-xs-12 col-lg-4 {
+        margin-left: -200px;
+    }
+
+}
+
+/* For example, typical desktop monitors or larger tablet devices */
+@media only screen and (min-width: 992px) {
+    .box2 {
+        margin-left: -300px;
+    }
+
+    .col-md-4 col-sm-4 col-xs-12 col-lg-4 {
+        margin-left: -300px;
+    }
+}
+
+/* Large Devices, for example large monitors and TVs */
+@media only screen and (min-width: 1200px) {
+
+}
